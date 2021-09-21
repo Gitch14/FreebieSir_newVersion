@@ -69,6 +69,16 @@ public class RegistrationActivity extends AppCompatActivity {
             Toast.makeText(this, "Ведите номер пожалуйста", Toast.LENGTH_SHORT).show();
 
         }
+        else if(phone.length()>10)
+        {
+            Toast.makeText(this, "Ведите полный номер пожалуйста", Toast.LENGTH_SHORT).show();
+
+        }
+        else if(password.length()>5)
+        {
+            Toast.makeText(this, "Пароль должен быть больше 5 символов", Toast.LENGTH_SHORT).show();
+
+        }
         else if(TextUtils.isEmpty(password))
         {
             Toast.makeText(this, "Ведите пароль", Toast.LENGTH_SHORT).show();

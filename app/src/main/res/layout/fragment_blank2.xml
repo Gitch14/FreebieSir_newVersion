@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background"
-    android:layout_height="match_parent">
+    tools:context=".BlankFragment2">
 
     <ImageView
         android:layout_width="360dp"
@@ -17,7 +19,7 @@
         android:text="Freebie sir"
         android:textSize="20dp"
         android:textColor="@color/white"
-        android:translationX="-200dp"
+        android:translationX="150dp"
         android:translationY="110dp"
         />
 
@@ -27,10 +29,18 @@
         android:text="Аналитика ваших трат"
         android:textSize="20dp"
         android:textColor="@color/white"
-        android:translationX="-510dp"
+        android:translationX="100dp"
         android:translationY="549dp"
         />
 
+    <Button
+        android:id="@+id/skip2"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:text="Пропустить"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationX="230dp"
+        android:translationY="10dp" />
 
-
-</LinearLayout>
+</FrameLayout>
