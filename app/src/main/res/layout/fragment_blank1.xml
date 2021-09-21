@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BlankFragment1">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="265dp"
+        android:src="@drawable/screen1"
+        android:translationX="25dp"
+        android:translationY="195dp" />
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:text="Freebie sir"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:translationX="150dp"
+        android:translationY="110dp"
+        />
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:text="Поиск товаров по
+акционным ценам"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:translationX="130dp"
+        android:translationY="549dp"
+        />
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:text="Пропустить"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:translationX="230dp"
+        android:translationY="10dp" />
+
+
+</FrameLayout>
