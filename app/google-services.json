@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011935181846",
+    "project_id": "freebie-sir",
+    "storage_bucket": "freebie-sir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011935181846:android:2fd960da6a7433ac7dc937",
+        "android_client_info": {
+          "package_name": "com.example.freebiesir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011935181846-hb3h37v04r40uhckq6c9i3hfngv57np9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8fIvNfwQnE1Z7rvjdEkxPWhrfNBjzfCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011935181846-hb3h37v04r40uhckq6c9i3hfngv57np9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

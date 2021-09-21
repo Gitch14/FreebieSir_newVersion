@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegistrationActivity">
+
+
+    <TextView
+        android:id="@+id/reg_txt"
+        android:layout_width="225dp"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:translationY="130dp" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="357dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/registration_block"
+        android:translationY="190dp" />
+
+    <TextView
+        android:id="@+id/login_txt"
+        android:layout_width="145dp"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:text="Регистрация"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:translationY="230dp" />
+
+    <EditText
+        android:id="@+id/login_name_input"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:translationY="280dp"
+        android:background="@drawable/input"
+        android:textColor="@color/black"
+        android:hint="Имя"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:textColorHint="#9D99AC"
+        android:textSize="12dp"
+        />
+
+    <EditText
+        android:id="@+id/login_phone_input"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:translationY="330dp"
+        android:background="@drawable/input"
+        android:textColor="@color/black"
+        android:hint="Номер телефона"
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        android:textColorHint="#9D99AC"
+        android:textSize="12dp"
+        />
+
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input"
+        android:textColor="@color/black"
+        android:hint=" Пароль"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:textColorHint="#9D99AC"
+        android:textSize="12dp"
+        android:translationY="380dp"
+        />
+
+    <EditText
+        android:id="@+id/login_password_two_input"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input"
+        android:hint="Пароль"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:textColorHint="#9D99AC"
+        android:textSize="12dp"
+        android:translationY="430dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/image_reg_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:src="@drawable/btn_login"
+        android:translationY="480dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+
