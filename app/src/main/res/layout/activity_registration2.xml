@@ -65,20 +65,23 @@
         android:textSize="12dp"
         />
 
+
     <EditText
         android:id="@+id/login_password_input"
         android:layout_width="250dp"
         android:layout_height="30dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/input"
-        android:textColor="@color/black"
+        android:drawableRight="@drawable/ic_icon_pass"
         android:hint=" Пароль"
-        android:paddingLeft="20dp"
         android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/black"
         android:textColorHint="#9D99AC"
         android:textSize="12dp"
-        android:translationY="380dp"
-        />
+        android:translationY="380dp" />
+
 
     <EditText
         android:id="@+id/login_password_two_input"
@@ -86,15 +89,20 @@
         android:layout_height="30dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/input"
+        android:drawableRight="@drawable/ic_icon_pass"
         android:hint="Пароль"
-        android:paddingLeft="20dp"
-        android:textColor="@color/black"
         android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="@color/black"
         android:textColorHint="#9D99AC"
         android:textSize="12dp"
         android:translationY="430dp"
 
+
         />
+
+
 
     <ImageButton
         android:id="@+id/image_reg_Button"

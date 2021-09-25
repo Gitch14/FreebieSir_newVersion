@@ -16,6 +16,8 @@
         android:textSize="24dp"
         android:translationY="130dp" />
 
+
+
     <ImageButton
         android:id="@+id/registration_button"
         android:layout_width="185dp"
@@ -26,14 +28,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="#0000" />
 
+
+
+
+
+
     <ImageButton
         android:id="@+id/login_button"
         android:layout_width="185dp"
         android:layout_height="285dp"
+        android:background="@drawable/login_btn_start"
         android:translationX="100pt"
         android:translationY="220dp"
-        android:background="@drawable/login_btn_start"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="255dp"
+        android:text="Регистрация"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:text="Новенький тут?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="350dp"
+        android:text="Не волнуйтесь, просто зарегестрируйтесь,
+чтоб получить доступ
+к этому изумительному приложению."
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="29dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="10dp"
+        android:text="Войти в аккаунт"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="330dp"
+        android:text="Возвращение?"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="370dp"
+        android:text="Просто войдите, чтобы
+продолжить то, что
+ вы делаете."
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+
 
 </RelativeLayout>

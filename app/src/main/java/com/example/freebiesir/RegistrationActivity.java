@@ -45,6 +45,8 @@ public class RegistrationActivity extends AppCompatActivity {
         londingBar = new ProgressDialog(this);
 
 
+
+
         regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
