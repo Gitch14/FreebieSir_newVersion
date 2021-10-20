@@ -21,6 +21,7 @@ public class MapsFragment extends Fragment {
 
     private GoogleMap mMap;
 
+
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
 
 
@@ -37,8 +38,11 @@ public class MapsFragment extends Fragment {
         public void onMapReady(GoogleMap googleMap) {
             LatLng kzi = new LatLng(46.48044796386659, 30.73473057318427);
             googleMap.addMarker(new MarkerOptions().position(kzi).title("KZI"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(kzi));
 
+            googleMap.addMarker(new MarkerOptions()
+                    .position(kzi)
+                    .title("kzi"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kzi, 17));
 
         }
     };
