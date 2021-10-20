@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Freebie sir</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_text">Home</string>
+    <string name="map_text">Map</string>
+    <string name="shop_text">Shop</string>
+    <string name="money_text">Money</string>
+    <string name="prof_text">Profile</string>
 </resources>

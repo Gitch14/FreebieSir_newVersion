@@ -74,7 +74,7 @@ public class BlankFragment4 extends Fragment {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent skip = new Intent(getActivity(), MainActivity2.class);
+                Intent skip = new Intent(getActivity(), RegistrationActivity.class);
                 startActivity(skip);
             }
         });

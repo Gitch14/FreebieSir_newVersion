@@ -32,14 +32,7 @@
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="250dp"
-        android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/input"
-        android:translationY="330dp"
 
-       >
 
         <EditText
             android:id="@+id/login_password_input"
@@ -47,19 +40,16 @@
             android:layout_height="30dp"
             android:layout_centerHorizontal="true"
             android:background="@drawable/input"
-            android:drawableRight="@drawable/ic_icon_pass"
             android:hint="Пароль"
             android:inputType="textPassword"
             android:paddingLeft="20dp"
-            android:paddingTop="12dp"
             android:paddingRight="20dp"
             android:textColor="@color/black"
             android:textColorHint="#9D99AC"
             android:textSize="12dp"
-
+            android:translationY="325dp"
 
             tools:ignore="TouchTargetSizeCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/login_txt"
