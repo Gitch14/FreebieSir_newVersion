@@ -1,6 +1,6 @@
 package com.example.freebiesir;
 
-import android.content.Intent;
+import android.app.ProgressDialog;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,19 +8,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
-
-import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ShopsFragment#newInstance} factory method to
+ * Use the {@link RegistrFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ShopsFragment extends Fragment {
+public class RegistrFragment extends Fragment {
 
-    private Button sub;
+    private ImageButton regButton;
+    private EditText userName_input, phone_input_reg, pass_input, sec_pass_input;
+    private ProgressDialog londingBar;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,9 +31,8 @@ public class ShopsFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-
-    public ShopsFragment() {
-
+    public RegistrFragment() {
+        // Required empty public constructor
     }
 
     /**
@@ -42,11 +41,11 @@ public class ShopsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ShopsFragment.
+     * @return A new instance of fragment RegistrFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ShopsFragment newInstance(String param1, String param2) {
-        ShopsFragment fragment = new ShopsFragment();
+    public static RegistrFragment newInstance(String param1, String param2) {
+        RegistrFragment fragment = new RegistrFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,34 +59,15 @@ public class ShopsFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-
-
         }
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_shops, container, false);
+        return inflater.inflate(R.layout.fragment_registr, container, false);
     }
-
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        sub = (Button) view.findViewById(R.id.sub);
-
-        sub.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //MarkerOptions.setVisible(true);
-
-              //  Intent resultIntent = new Intent();
-               // resultIntent.MarkerOptions().setVisible(true);
-
-
-            }
-        });
-    }
-
 }

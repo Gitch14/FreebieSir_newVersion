@@ -18,21 +18,20 @@ public class FragmentAdapter extends FragmentStateAdapter {
         switch (position)
         {
             case 1 :
-                return new BlankFragment1();
-            case 2 :
                 return new BlankFragment2();
-            case 3 :
+            case 2 :
                 return new BlankFragment3();
-            case 4 :
+            case 3 :
                 return new BlankFragment4();
+
         }
 
-        return new MainBlankFragment();
+        return new BlankFragment1();
 
     }
 
     @Override
     public int getItemCount() {
-        return 5;
+        return 4;
     }
 }

@@ -1,14 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    android:layout_width="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home" />
+        android:layout_height="wrap_content"
+        android:paddingBottom="70dp"
+        tools:context=".HomeFragment">
 
-</FrameLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:src="@drawable/fanta1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/tovari"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/kop"
+            android:layout_marginBottom="40dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton14"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/fanta2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
+
+        <ImageButton
+            android:id="@+id/imageButton15"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/cola1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton13" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/cola2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton14" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sok1"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton15" />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/sok2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton16" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sidr1"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton17" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="162dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/sidr2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton18" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

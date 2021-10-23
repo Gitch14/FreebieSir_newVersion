@@ -7,17 +7,20 @@
     tools:context=".BlankFragment4">
 
 
-
     <Button
         android:id="@+id/skip4"
-        android:layout_width="185dp"
-        android:layout_height="60dp"
+
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:background="#0000"
+        android:alpha="0.4"
         android:text="Пропустить"
         android:textColor="@color/white"
-        android:textSize="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp" />
+        android:textSize="13dp" />
+
 
 
 </RelativeLayout>

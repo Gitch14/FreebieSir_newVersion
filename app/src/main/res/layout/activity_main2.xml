@@ -29,10 +29,6 @@
         app:strokeColor="#0000" />
 
 
-
-
-
-
     <ImageButton
         android:id="@+id/login_button"
         android:layout_width="185dp"
