@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/ic_fragment2"
     tools:context=".BlankFragment2">
 
-    <ImageView
-        android:layout_width="360dp"
-        android:layout_height="265dp"
-        android:src="@drawable/screen2"
-        android:layout_centerHorizontal="true"
-        android:translationY="195dp" />
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="60dp"
-        android:text="Freebie sir"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"
-        android:translationY="110dp" />
-
-    <TextView
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:text="Аналитика ваших трат"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"
-        android:translationY="549dp" />
 
     <Button
         android:id="@+id/skip2"
         android:layout_width="185dp"
         android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
         android:text="Пропустить"
         android:textColor="@color/white"
-        android:textSize="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp" />
+        android:textSize="20dp" />
+
+
 
 </RelativeLayout>

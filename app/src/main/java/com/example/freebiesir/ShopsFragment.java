@@ -1,5 +1,6 @@
 package com.example.freebiesir;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +19,8 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class ShopsFragment extends Fragment {
+
+    private Button sub;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,8 +31,9 @@ public class ShopsFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+
     public ShopsFragment() {
-        // Required empty public constructor
+
     }
 
     /**
@@ -52,6 +60,8 @@ public class ShopsFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
+
         }
     }
 
@@ -61,4 +71,18 @@ public class ShopsFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_shops, container, false);
     }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        sub = (Button) view.findViewById(R.id.sub);
+
+        sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //MarkerOptions.setVisible(true);
+            }
+        });
+    }
+
 }
