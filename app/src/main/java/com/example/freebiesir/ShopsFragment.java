@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -20,7 +21,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
  */
 public class ShopsFragment extends Fragment {
 
-    private Button sub;
+    private Button sub,sub1,sub2;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -76,6 +77,8 @@ public class ShopsFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         sub = (Button) view.findViewById(R.id.sub);
+        sub1 = (Button) view.findViewById(R.id.sub_tav);
+        sub2 = (Button) view.findViewById(R.id.sub_kop);
 
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +91,24 @@ public class ShopsFragment extends Fragment {
 
             }
         });
+
+
+        sub1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(),"Подписка на Таврию В офромлена успешно!",Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        sub2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(),"Подписка на Клпейку офромлена успешно!",Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
     }
 
 }

@@ -1,20 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_magaz"
     tools:context=".ShopsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="shop" />
+
+    <Button
+        android:id="@+id/sub_tav"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="190dp"
+        android:alpha="0.0"
+        android:translationY="165dp" />
+
+    <Button
+        android:id="@+id/sub_kop"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="190dp"
+        android:alpha="0.0"
+        android:translationY="415dp" />
 
     <Button
         android:id="@+id/sub"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="190dp"
+        android:alpha="0.0"
+        android:translationY="1dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/Tavtia_V"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="subscribe"></Button>
+        android:src="@drawable/tavria_v"
+        android:layout_marginLeft="20dp"
+        android:translationY="130dp" />
+
+    <ImageView
+        android:id="@+id/Kopeika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kopeika"
+        android:layout_marginLeft="20dp"
+        android:translationY="370dp" />
+
+
 
 </RelativeLayout>

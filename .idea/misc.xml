@@ -28,6 +28,7 @@
         <entry key="..\:/Users/vladb/AndroidStudioProjects/FreebieSir_newVersion/app/src/main/res/layout/fragment_shops.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/vladb/AndroidStudioProjects/FreebieSir_newVersion/app/src/main/res/layout/fragment_user_profile.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/vladb/AndroidStudioProjects/FreebieSir_newVersion/app/src/main/res/menu/item_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/drawable/button.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24791666666666667" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/drawable/ic_person.xml" value="0.3828125" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/drawable/item_selector.xml" value="0.3828125" />
@@ -40,6 +41,9 @@
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_main2.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_profile.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_profile_new.xml" value="0.28894927536231885" />
+        <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_sale_card.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_scaner.xml" value="0.2" />
+        <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/activity_settings.xml" value="0.28894927536231885" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/fragment_blank1.xml" value="0.23177083333333334" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/fragment_blank2.xml" value="0.23177083333333334" />
         <entry key="..\:/Users/vladb/StudioProjects/FreebieSir/app/src/main/res/layout/fragment_blank3.xml" value="0.23177083333333334" />
