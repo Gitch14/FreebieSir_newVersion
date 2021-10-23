@@ -1,5 +1,6 @@
 package com.example.freebiesir;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +16,8 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class UserProfileFragment extends Fragment {
+
+    private Button Button1,Button2,Button3,Button4,Button5,Button6,Button7;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,5 +64,69 @@ public class UserProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_user_profile, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        Button1 = (Button) view.findViewById(R.id.button_profile1);
+        Button2 = (Button) view.findViewById(R.id.button_profile2);
+        Button3 = (Button) view.findViewById(R.id.button4);
+        Button4 = (Button) view.findViewById(R.id.button5);
+        Button5 = (Button) view.findViewById(R.id.button6);
+        Button6 = (Button) view.findViewById(R.id.button7);
+        Button7 = (Button) view.findViewById(R.id.button8);
+
+        Button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), Scaner.class);
+                startActivity(skip);
+            }
+        });
+        Button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), Money.class);
+                startActivity(skip);
+            }
+        });
+        Button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), Bookmark.class);
+                startActivity(skip);
+            }
+        });
+        Button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), SaleCard.class);
+                startActivity(skip);
+            }
+        });
+        Button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), Invite.class);
+                startActivity(skip);
+            }
+        });
+        Button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), Settings.class);
+                startActivity(skip);
+            }
+        });
+        Button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent skip = new Intent(getActivity(), MainActivity.class);
+                startActivity(skip);
+            }
+        });
+
+
     }
 }

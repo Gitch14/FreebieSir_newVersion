@@ -16,7 +16,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FreebieSir">
         <activity
-            android:name=".Profile"
+            android:name=".Scaner"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Money"
+            android:exported="false" />
+        <activity
+            android:name=".Bookmark"
+            android:exported="false" />
+        <activity
+            android:name=".SaleCard"
+            android:exported="false" />
+        <activity
+            android:name=".Invite"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileNew"
             android:exported="false" />
         <activity
             android:name=".HomeSlider"
