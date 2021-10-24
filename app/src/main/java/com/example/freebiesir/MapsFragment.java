@@ -27,6 +27,7 @@ public class MapsFragment extends Fragment {
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
 
 
+
         /**
          * Manipulates the map once available.
          * This callback is triggered when the map is ready to be used.
@@ -45,7 +46,7 @@ public class MapsFragment extends Fragment {
 
 
 
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kzi, 15));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kzi, 12));
             googleMap.addMarker(new MarkerOptions()
                     .position(kzi)
                     .title("kzi")
@@ -64,63 +65,63 @@ public class MapsFragment extends Fragment {
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(false));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.479354989784575, 30.721792264675024))
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(true));
+                    .visible(App.getInstance()));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.48271965560669, 30.735735123043714))
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(true));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.480576895416625, 30.74488336644908))
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(true));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.483863944792816, 30.737642270592833))
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(true));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.482013297695424, 30.7320224757837))
                     .title("ТАВРИЯ В")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-                    .visible(true));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.470286912004106, 30.71708716395237))
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(true));
+                    .visible(App.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.47280659752476, 30.71215189945036))
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(true));
+                    .visible(App.getInstance(true)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.46838044481153, 30.71899689652372))
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(true));
+                    .visible(App.getInstance()));
 
         }
     };

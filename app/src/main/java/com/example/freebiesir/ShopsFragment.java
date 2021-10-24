@@ -94,9 +94,20 @@ public class ShopsFragment extends Fragment {
 
 
         sub1.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View view) {
+
                 Toast.makeText(getActivity(),"Подписка на Таврию В офромлена успешно!",Toast.LENGTH_SHORT).show();
+
+               // App.getInstance(b = true);
+                App.isActive = true;
+
+                boolean isActive = true;
+
+
+
 
             }
         });
@@ -105,6 +116,7 @@ public class ShopsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getActivity(),"Подписка на Клпейку офромлена успешно!",Toast.LENGTH_SHORT).show();
+                boolean isActive = true;
 
             }
         });
