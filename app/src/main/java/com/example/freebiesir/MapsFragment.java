@@ -107,21 +107,21 @@ public class MapsFragment extends Fragment {
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(App.getInstance(false)));
+                    .visible(App1.getInstance(false)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.47280659752476, 30.71215189945036))
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(App.getInstance(true)));
+                    .visible(App1.getInstance(true)));
 
             googleMap.addMarker(new MarkerOptions()
                     .position(new LatLng( 46.46838044481153, 30.71899689652372))
                     .title("КОПЕЙКА")
                     .snippet("Кликните что бы перейти в католог)")
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
-                    .visible(App.getInstance()));
+                    .visible(App1.getInstance()));
 
         }
     };

@@ -116,7 +116,8 @@ public class ShopsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getActivity(),"Подписка на Клпейку офромлена успешно!",Toast.LENGTH_SHORT).show();
-                boolean isActive = true;
+                boolean isActive1 = true;
+                App1.isActive1 = true;
 
             }
         });
