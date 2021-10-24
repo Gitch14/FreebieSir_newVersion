@@ -46,7 +46,7 @@ public class MapsFragment extends Fragment {
 
 
 
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kzi, 12));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kzi, 15));
             googleMap.addMarker(new MarkerOptions()
                     .position(kzi)
                     .title("kzi")
