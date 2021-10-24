@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FreebieSir">
         <activity
+            android:name=".vodka1"
+            android:exported="false" />
+        <activity
             android:name=".Scaner"
             android:exported="false" />
         <activity
